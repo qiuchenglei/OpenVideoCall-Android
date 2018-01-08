@@ -44,7 +44,7 @@ Then, download the **Agora Video SDK** from [Agora.io SDK](https://www.agora.io/
 
 - Alternative way to integrate:
 
-First, download the **Agora Video SDK** from [Agora.io SDK](https://www.agora.io/en/download/). Unzip the downloaded SDK package and copy ***.jar** under **libs** to **app/libs**, **arm64-v8a**/**x86**/**armeabi-v7a** under **libs** to **app/src/main/libs**, ***.h** under **libs/include** to **app/src/main/cpp/agora**.
+First, download the **Agora Video SDK** from [Agora.io SDK](https://www.agora.io/en/download/). Unzip the downloaded SDK package and copy ***.jar** under **libs** to **app/libs**, **arm64-v8a**/**x86**/**armeabi-v7a** under **libs** to **app/src/main/jniLibs**, ***.h** under **libs/include** to **app/src/main/cpp/agora**.
 
 Then, add the fllowing code in the property of the dependence of the "app/build.gradle":
 
